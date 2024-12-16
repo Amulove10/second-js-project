@@ -1,0 +1,66 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+    
+
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(29, 27, 27);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(19, 16, 12);
+   color: azure;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(hue, saturation, lightness);
+    background-image: url(https://www.bing.com/ck/a?!&&p=072b054eef57243aJmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0xNWUyNTJmMS0xMjAyLTYxMDgtMDRmYy00MWRlMTM4NTYwYjkmaW5zaWQ9NTU4MA&ptn=3&ver=2&hsh=3&fclid=15e252f1-1202-6108-04fc-41de138560b9&u=a1L2ltYWdlcy9zZWFyY2g_cT1tYXRoaW1hdGljYWwlMjBpbWFnZXMmRk9STT1JUUZSQkEmaWQ9RUZEQTcyQTNFOEFCQzBFNzM5QzdFQzgwNUQ1NTRDNDdCQTM3N0IxQg&ntb=1);
+
+}
+button:hover{
+   background-color: rgb(58, 52, 52); 
+
+}
+button:active{
+    background-color: rgb(83, 83, 83);
+}
+.operator-btn{
+    background-color: rgb(241, 199, 11);
+}
+.operator-btn:hover{
+    background-color: rgb(211, 168, 49);
+}
+.operator-btn:active{
+    background-color: rgb(211, 168, 79);
+}
